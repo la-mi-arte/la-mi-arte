@@ -1,0 +1,41 @@
+GUIDA KASTORINO.IT
+
+CONTATTI
+- Inserisci indirizzo azienda
+- Telefono
+- Email
+- Mappa Google Maps (iframe)
+- Form collegato a PHP o servizio SMTP
+
+CHI SIAMO
+- Storia
+- Missione
+- Team
+- Certificazioni
+
+SERVIZI
+- Un blocco per ogni servizio
+- Immagine
+- Descrizione
+- Pulsante richiesta preventivo
+
+PORTFOLIO
+- Screenshot lavori
+- Descrizione progetto
+- Risultati ottenuti
+
+INSTALLAZIONE NAS
+SYNOLOGY:
+1. Installa Web Station.
+2. Copia file nella cartella /web/kastorino.it
+3. Crea Virtual Host per kastorino.it
+4. Attiva HTTPS con Let's Encrypt.
+
+QNAP:
+1. Attiva Web Server.
+2. Copia file in /Web/kastorino.it
+3. Configura Virtual Host.
+4. Attiva SSL.
+
+ACCESSO ESTERNO:
+Consigliato Cloudflare Tunnel.

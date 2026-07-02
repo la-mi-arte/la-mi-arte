@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang='it'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <title>la_mi_arte.it | Home</title>
+    <meta name='description' content='Sito professionale la_mi_arte.it'>
+    <link rel='manifest' href='manifest.json'>
+    <link rel='stylesheet' href='assets/style.css'>
+    
+    <style>
+        /* Sfondo bianco per tutta la pagina */
+        body {
+            background-color: #FFFFFF; /* Bianco */
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        /* RIMUOVE LA BANDA NERA DALL'HEADER */
+        header, header nav {
+            background: transparent !important; /* Rende la barra trasparente, mostrando l'arancio sotto */
+            background-color: transparent !important;
+            box-shadow: none !important; /* Rimuove eventuali ombre scure */
+        }
+
+        /* Rimuove il nero dai link dell'header */
+        header nav a {
+            color: #2c3e50 !important; /* Un grigio scuro/bluastro anziché nero puro */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Opzionale: cambia colore quando si passa il mouse sopra i link */
+        header nav a:hover {
+            color: #d35400 !important; /* Arancio più scuro al passaggio del mouse */
+        }
+
+/* NUOVA REGOLA AGGIUNTA PER IL LOGO */
+        .logo-img {
+            height: 110px;
+            width: auto;
+            vertical-align: middle;
+            margin-right: 10px; /* Spazio tra logo e testo, se decidi di tenerli entrambi */
+        }
+    /* STILE AGGIUNTO PER CENTRARE MEGLIO IL MESSAGGIO IN COSTRUZIONE */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+</style>
+</head>
+<body>
+<header>
+    <nav>
+<!-- LOGO AGGIORNATO CON L'IMMAGINE -->
+        <a href='index.html' class="logo-home">
+            <img src="assets/Logo.jpeg" alt="la_mi_arte Logo" class="logo-img">
+        </a>
+            
+        <div>
+            <a href='chi-sono.html'>Chi sono</a>
+            <a href='servizi.html'>Servizi</a>
+            <a href='portfolio.html'>Portfolio</a>
+            <a href='blog.html'>Blog</a>
+            <a href='contatti.html'>Contatti</a>
+        </div>
+    </nav>
+</header>
+
+<!-- QUI È DOVE HO INSERITO LA TUA DICITURA -->
+<section class='hero'>
+    <h1>Sito in costruzione</h1>
+    <p>Sarò online presto.</p>
+
+<section class='hero'>
+    <h1>la_mi_arte.it</h1>
+    <p>Manifattura selvatica. Non è mai troppo tardi per realizzare un sogno.</p>
+</section>
+
+<footer>
+    <div class="social-links">
+        <p>Seguimi sui miei canali social:</p>
+        <a href="https://www.facebook.com/nicola.castoro.33" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/la_mi_arte/" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@kastorino" target="_blank" >TikTok</a>
+    </div>
+</footer>
+
+<script src='assets/app.js'></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <title>la_mi_arte.it | Blog</title>
+    <link rel='stylesheet' href='assets/style.css'>
+    
+    <style>
+        /* Sfondo bianco per tutta la pagina */
+        body {
+            background-color: #FFFFFF; 
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        /* RIMUOVE LA BANDA NERA DALL'HEADER */
+        header, header nav {
+            background: transparent !important; /* Rende la barra trasparente, mostrando l'arancio sotto */
+            background-color: transparent !important;
+            box-shadow: none !important; /* Rimuove eventuali ombre scure */
+     }
+
+/* Rimuove il nero dai link dell'header */
+        header nav a {
+            color: #2c3e50 !important; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Cambia colore quando si passa il mouse sopra i link */
+        header nav a:hover {
+            color: #d35400 !important; 
+        }
+
+/* NUOVA REGOLA AGGIUNTA PER IL LOGO */
+        .logo-img {
+            height: 110px;
+            width: auto;
+            vertical-align: middle;
+            margin-right: 10px; /* Spazio tra logo e testo, se decidi di tenerli entrambi */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+<!-- LOGO AGGIORNATO CON L'IMMAGINE -->
+        <a href='index.html' class="logo-home">
+            <img src="assets/Logo.jpeg" alt="la_mi_arte Logo" class="logo-img">
+            </a>
+        
+        <div>
+            <a href='chi-sono.html'>Chi sono</a>
+            <a href='servizi.html'>Servizi</a>
+            <a href='portfolio.html'>Portfolio</a>
+            <a href='blog.html'>Blog</a>
+            <a href='contatti.html'>Contatti</a>
+        </div>
+    </nav>
+</header>
+
+<main class='container'>
+    <h1>Blog</h1>
+    <p>Articoli futuri.</p>
+</main>
+
+</body>
+</html>
